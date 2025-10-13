@@ -1,0 +1,24 @@
+# Ignore Python virtual environments
+tutorial_env/
+venv/
+Lib/
+Scripts/
+pyvenv.cfg
+share/
+etc/
+
+# Ignore IDE settings
+.idea/
+
+# Ignore Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Allow source code and notebooks
+!*.py
+!*.ipynb
+!tutorial/
